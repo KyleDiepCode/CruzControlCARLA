@@ -1,0 +1,158 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kydiep # Change this to your cruzid
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: kydiep # Change this to your cruzid
+  template:
+    metadata:
+      labels:
+        app: kydiep # Change this to your cruzid
+    spec:
+      hostname: kydiep # Change this to your cruzid
+      containers:
+      - name: kydiep # Change this to your cruzid
+        # Pinned to the image verified with x264enc and the TURN adapter.
+        image: ghcr.io/selkies-project/nvidia-glx-desktop@sha256:db1f2e3fa8f47c7b6b2c1040e59dbddf2c67d5f6751ce0a4fb3acd64339209ce
+        env:
+        - name: TZ
+          value: "UTC"
+        - name: DISPLAY_SIZEW
+          value: "1920"
+        - name: DISPLAY_SIZEH
+          value: "1080"
+        - name: DISPLAY_REFRESH
+          value: "60"
+        - name: DISPLAY_DPI
+          value: "96"
+        - name: DISPLAY_CDEPTH
+          value: "24"
+        - name: VIDEO_PORT
+          value: "DFP"
+        - name: PASSWD
+          valueFrom:
+            secretKeyRef:
+              name: my-pass
+              key: my-pass
+        - name: SELKIES_ENCODER
+          value: "x264enc"
+        - name: SELKIES_ENABLE_RESIZE
+          value: "false"
+        - name: SELKIES_VIDEO_BITRATE
+          value: "8000"
+        - name: SELKIES_AUDIO_BITRATE
+          value: "128000"
+        - name: SELKIES_FRAMERATE
+          value: "60"
+        - name: SELKIES_ENABLE_BASIC_AUTH
+          value: "true"
+        - name: SELKIES_TURN_REST_URI
+          value: "http://127.0.0.1:8082/"
+        - name: SELKIES_TURN_PROTOCOL
+          value: "tcp"
+        - name: SELKIES_TURN_TLS
+          value: "false"
+        stdin: true
+        tty: true
+        ports:
+        - name: http
+          containerPort: 8080
+          protocol: TCP
+        readinessProbe:
+          tcpSocket:
+            port: http
+          periodSeconds: 5
+        resources:
+          limits:
+            memory: 32Gi
+            cpu: "16"
+            nvidia.com/gpu: 1
+          requests:
+            memory: 8Gi
+            cpu: "4"
+            nvidia.com/gpu: 1
+        volumeMounts:
+        - mountPath: /dev/shm
+          name: dshm
+        - mountPath: /cache
+          name: cache-vol
+        - mountPath: /home/ubuntu/persistent
+          name: root-vol
+      # This legacy Selkies image expects iceServers, while NRP returns
+      # username/password/uris. Fetch fresh credentials on every request.
+      - name: turn-config
+        image: python:3.12-alpine
+        command: ["python3", "-u", "-c"]
+        args:
+        - |
+          import json
+          from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+          from urllib.request import Request, urlopen
+
+          class Handler(BaseHTTPRequestHandler):
+              def do_GET(self):
+                  try:
+                      headers = {key: self.headers[key] for key in
+                                 ('x-auth-user', 'x-turn-protocol', 'x-turn-tls')
+                                 if key in self.headers}
+                      request = Request('http://turn-rest.nrp-nautilus.io/', headers=headers)
+                      with urlopen(request, timeout=10) as response:
+                          config = json.load(response)
+                      if 'iceServers' not in config:
+                          config = {'iceServers': [
+                              {'urls': ['stun:stun.l.google.com:19302']},
+                              {'urls': config['uris'], 'username': config['username'],
+                               'credential': config['password']}]}
+                      body = json.dumps(config).encode()
+                      self.send_response(200)
+                      self.send_header('Content-Type', 'application/json')
+                      self.send_header('Cache-Control', 'no-store')
+                      self.send_header('Content-Length', str(len(body)))
+                      self.end_headers()
+                      self.wfile.write(body)
+                  except Exception as error:
+                      print('TURN configuration fetch failed:', type(error).__name__, flush=True)
+                      self.send_error(502, 'TURN configuration unavailable')
+
+          ThreadingHTTPServer(('127.0.0.1', 8082), Handler).serve_forever()
+        resources:
+          requests:
+            cpu: "10m"
+            memory: 32Mi
+          limits:
+            cpu: "100m"
+            memory: 64Mi
+      dnsPolicy: None
+      dnsConfig:
+        nameservers:
+        - 8.8.8.8
+        - 8.8.4.4
+      volumes:
+      - name: dshm
+        emptyDir: {}
+      - name: cache-vol
+        persistentVolumeClaim:
+          claimName: kydiep-carla-cache # Change this to your cruzid
+      - name: root-vol
+        persistentVolumeClaim:
+          claimName: kydiep-carla # Change this to your cruzid
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: topology.kubernetes.io/zone
+                operator: NotIn
+                values:
+                - ucsd-suncave
+              # Broken GPU ("GPU is lost") rejected every pod here on 2026-11-17
+              - key: kubernetes.io/hostname
+                operator: NotIn
+                values:
+                - k8s-haosu-22.sdsc.optiputer.net
+                - k8s-chase-ci-01.calit2.optiputer.net

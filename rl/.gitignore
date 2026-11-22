@@ -1,0 +1,6 @@
+runs/
+models/
+*.zip
+__pycache__/
+.DS_Store
+tensorboard_*/

@@ -1,0 +1,736 @@
+2026-11-22 04:25:28.050689: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2026-11-22 04:25:28.116676: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-11-22 04:25:29.111955: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+connecting to Carla server...
+Carla server connected!
+HERE
+ Step: 0 Dist: 1 Reward: 17680 Throttle: 0.87 Braking: 0.13 Steer: 0.67
+ Step: 1 Dist: 1 Reward: -2 Throttle: 0.65 Braking: 0.43 Steer: -0.77
+ Step: 2 Dist: 0 Reward: 3 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 3 Dist: 0 Reward: 8 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 4 Dist: 0 Reward: 13 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 5 Dist: 0 Reward: 17 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 6 Dist: 0 Reward: 14 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 7 Dist: 0 Reward: -9 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 8 Dist: 0 Reward: -12 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 9 Dist: 0 Reward: -9 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 10 Dist: 0 Reward: -8 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 11 Dist: 0 Reward: -8 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 12 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 13 Dist: 0 Reward: -12 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 14 Dist: 0 Reward: -11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 15 Dist: 0 Reward: -11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 16 Dist: 0 Reward: -11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 17 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 18 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 19 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 20 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 21 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 22 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 23 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 24 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 25 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 26 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 27 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 28 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 29 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 30 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 31 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 32 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 33 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 34 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 35 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 36 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 37 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 38 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 39 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 40 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 41 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 42 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 43 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 44 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 45 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 46 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 47 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 48 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 49 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 50 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 51 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 52 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 53 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 54 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 55 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 56 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 57 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 58 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 59 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 60 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 61 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 62 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 63 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 64 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 65 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 66 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 67 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 68 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 69 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 70 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 71 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 72 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 73 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 74 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 75 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 76 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 77 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 78 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 79 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 80 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 81 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 82 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 83 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 84 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 85 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 86 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 87 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 88 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 89 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 90 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 91 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 92 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 93 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 94 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 95 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 96 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 97 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 98 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 99 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 100 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 101 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+HERE
+ Step: 0 Dist: 1 Reward: 16098 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 1 Dist: 1 Reward: -2 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 2 Dist: 0 Reward: 3 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 3 Dist: 0 Reward: 8 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 4 Dist: 0 Reward: 13 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 5 Dist: 0 Reward: 18 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 6 Dist: 0 Reward: 14 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 7 Dist: 0 Reward: -9 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 8 Dist: 0 Reward: -12 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 9 Dist: 0 Reward: -9 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 10 Dist: 0 Reward: -8 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 11 Dist: 0 Reward: -8 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 12 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 13 Dist: 0 Reward: -12 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 14 Dist: 0 Reward: -11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 15 Dist: 0 Reward: -11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 16 Dist: 0 Reward: -11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 17 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 18 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 19 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 20 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 21 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 22 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 23 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 24 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 25 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 26 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 27 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 28 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 29 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 30 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 31 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 32 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 33 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 34 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 35 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 36 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 37 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 38 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 39 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 40 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 41 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 42 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 43 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 44 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 45 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 46 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 47 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 48 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 49 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 50 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 51 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 52 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 53 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 54 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 55 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 56 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 57 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 58 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 59 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 60 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 61 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 62 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 63 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 64 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 65 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 66 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 67 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 68 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 69 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 70 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 71 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 72 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 73 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 74 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 75 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 76 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 77 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 78 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 79 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 80 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 81 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 82 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 83 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 84 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 85 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 86 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 87 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 88 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 89 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 90 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 91 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 92 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 93 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 94 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 95 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 96 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 97 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 98 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 99 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 100 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 101 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+HERE
+ Step: 0 Dist: 1 Reward: -6456 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 1 Dist: 1 Reward: -2 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 2 Dist: 0 Reward: 3 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 3 Dist: 0 Reward: 7 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 4 Dist: 0 Reward: 12 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 5 Dist: 0 Reward: 15 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 6 Dist: 0 Reward: 4 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 7 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 8 Dist: 0 Reward: -11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 9 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 10 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 11 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 12 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 13 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 14 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 15 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 16 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 17 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 18 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 19 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 20 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 21 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 22 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 23 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 24 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 25 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 26 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 27 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 28 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 29 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 30 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 31 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 32 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 33 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 34 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 35 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 36 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 37 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 38 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 39 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 40 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 41 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 42 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 43 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 44 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 45 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 46 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 47 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 48 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 49 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 50 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 51 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 52 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 53 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 54 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 55 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 56 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 57 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 58 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 59 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 60 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 61 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 62 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 63 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 64 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 65 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 66 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 67 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 68 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 69 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 70 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 71 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 72 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 73 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 74 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 75 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 76 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 77 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 78 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 79 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 80 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 81 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 82 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 83 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 84 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 85 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 86 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 87 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 88 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 89 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 90 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 91 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 92 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 93 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 94 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 95 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 96 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 97 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 98 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 99 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 100 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 101 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+HERE
+ Step: 0 Dist: 1 Reward: -4421 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 1 Dist: 1 Reward: -2 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 2 Dist: 0 Reward: 3 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 3 Dist: 0 Reward: 8 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 4 Dist: 0 Reward: 13 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 5 Dist: 0 Reward: 17 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 6 Dist: 0 Reward: 12 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 7 Dist: 0 Reward: -9 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 8 Dist: 0 Reward: -12 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 9 Dist: 0 Reward: -9 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 10 Dist: 0 Reward: -9 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 11 Dist: 0 Reward: -9 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 12 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 13 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 14 Dist: 0 Reward: -11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 15 Dist: 0 Reward: -11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 16 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 17 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 18 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 19 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 20 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 21 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 22 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 23 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 24 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 25 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 26 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 27 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 28 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 29 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 30 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 31 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 32 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 33 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 34 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 35 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 36 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 37 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 38 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 39 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 40 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 41 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 42 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 43 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 44 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 45 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 46 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 47 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 48 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 49 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 50 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 51 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 52 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 53 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 54 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 55 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 56 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 57 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 58 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 59 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 60 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 61 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 62 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 63 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 64 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 65 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 66 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 67 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 68 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 69 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 70 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 71 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 72 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 73 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 74 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 75 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 76 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 77 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 78 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 79 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 80 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 81 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 82 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 83 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 84 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 85 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 86 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 87 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 88 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 89 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 90 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 91 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 92 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 93 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 94 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 95 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 96 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 97 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 98 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 99 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 100 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 101 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+HERE
+ Step: 0 Dist: 1 Reward: 22600 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 1 Dist: 1 Reward: -2 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 2 Dist: 0 Reward: 3 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 3 Dist: 0 Reward: 8 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 4 Dist: 0 Reward: 13 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 5 Dist: 0 Reward: 17 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 6 Dist: 0 Reward: 14 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 7 Dist: 0 Reward: -9 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 8 Dist: 0 Reward: -12 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 9 Dist: 0 Reward: -9 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 10 Dist: 0 Reward: -8 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 11 Dist: 0 Reward: -8 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 12 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 13 Dist: 0 Reward: -12 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 14 Dist: 0 Reward: -11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 15 Dist: 0 Reward: -11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 16 Dist: 0 Reward: -11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 17 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 18 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 19 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 20 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 21 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 22 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 23 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 24 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 25 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 26 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 27 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 28 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 29 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 30 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 31 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 32 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 33 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 34 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 35 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 36 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 37 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 38 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 39 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 40 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 41 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 42 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 43 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 44 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 45 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 46 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 47 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 48 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 49 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 50 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 51 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 52 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 53 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 54 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 55 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 56 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 57 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 58 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 59 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 60 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 61 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 62 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 63 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 64 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 65 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 66 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 67 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 68 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 69 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 70 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 71 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 72 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 73 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 74 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 75 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 76 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 77 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 78 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 79 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 80 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 81 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 82 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 83 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 84 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 85 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 86 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 87 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 88 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 89 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 90 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 91 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 92 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 93 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 94 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 95 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 96 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 97 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 98 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 99 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 100 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 101 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+HERE
+ Step: 0 Dist: 1 Reward: -14544 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 1 Dist: 1 Reward: -3 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 2 Dist: 1 Reward: 2 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 3 Dist: 0 Reward: 6 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 4 Dist: 0 Reward: 10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 5 Dist: 0 Reward: 11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 6 Dist: 0 Reward: 0 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 7 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 8 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 9 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 10 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 11 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 12 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 13 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 14 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 15 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 16 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 17 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 18 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 19 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 20 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 21 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 22 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 23 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 24 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 25 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 26 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 27 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 28 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 29 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 30 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 31 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 32 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 33 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 34 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 35 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 36 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 37 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 38 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 39 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 40 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 41 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 42 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 43 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 44 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 45 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 46 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 47 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 48 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 49 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 50 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 51 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 52 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 53 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 54 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 55 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 56 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 57 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 58 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 59 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 60 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 61 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 62 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 63 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 64 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 65 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 66 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 67 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 68 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 69 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 70 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 71 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 72 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 73 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 74 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 75 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 76 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 77 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 78 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 79 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 80 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 81 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 82 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 83 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 84 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 85 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 86 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 87 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 88 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 89 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 90 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 91 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 92 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 93 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 94 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 95 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 96 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 97 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 98 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 99 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 100 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 101 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+HERE
+ Step: 0 Dist: 1 Reward: -2451 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 1 Dist: 1 Reward: -2 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 2 Dist: 0 Reward: 3 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 3 Dist: 0 Reward: 7 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 4 Dist: 0 Reward: 12 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 5 Dist: 0 Reward: 16 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 6 Dist: 0 Reward: 7 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 7 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 8 Dist: 0 Reward: -11 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 9 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 10 Dist: 0 Reward: -9 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 11 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 12 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 13 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 14 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 15 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 16 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 17 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 18 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 19 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 20 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 21 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 22 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 23 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 24 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 25 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 26 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 27 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 28 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 29 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 30 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 31 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 32 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 33 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 34 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 35 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 36 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 37 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 38 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 39 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 40 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 41 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 42 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 43 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 44 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 45 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 46 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 47 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 48 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 49 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 50 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 51 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 52 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 53 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 54 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 55 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 56 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 57 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 58 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 59 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 60 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 61 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 62 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 63 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 64 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 65 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 66 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 67 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 68 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 69 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 70 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 71 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 72 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 73 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 74 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 75 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 76 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 77 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 78 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 79 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 80 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 81 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 82 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 83 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 84 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 85 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 86 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 87 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 88 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 89 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 90 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 91 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 92 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 93 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 94 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 95 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 96 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 97 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 98 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 99 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 100 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+ Step: 101 Dist: 0 Reward: -10 Throttle: 1.0 Braking: 1.0 Steer: -1.0
+HERE
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  trying to operate on a destroyed actor; an actor's function was called, but the actor is already destroyed.
+timeout: the monitored command dumped core
+run.py ended 134
