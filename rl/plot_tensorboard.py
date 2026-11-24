@@ -18,9 +18,11 @@ import matplotlib.pyplot as plt
 from tensorboard.backend.event_processing.event_accumulator import EventAccumulator
 
 LABELS = {
-    "rollout/ep_rew_mean": "Training: mean episode reward (last 100 episodes)",
+    "rollout/ep_rew_mean": "Training: mean episode reward (last {window} episodes)",
     "eval/mean_reward": "Evaluation: mean reward (deterministic policy)",
+    "train/loss": "Training loss (TD error, MSE)",
 }
+YLABELS = {"train/loss": "Loss"}
 
 
 def find_runs(logdir):
@@ -42,6 +44,7 @@ def main():
     p.add_argument("--tags", nargs="+", default=["rollout/ep_rew_mean", "eval/mean_reward"])
     p.add_argument("--smooth", type=float, default=0.6, help="0 = raw, 0.9 = very smooth")
     p.add_argument("--title", default=None)
+    p.add_argument("--rew-window", type=int, default=100, help="episodes in ep_rew_mean (SB3: 100)")
     p.add_argument("--out", default=None, help="PNG path (default: plots/<logdir name>.png)")
     args = p.parse_args()
 
@@ -71,9 +74,9 @@ def main():
             if args.smooth > 0:
                 ax.plot(steps, values, color=line.get_color(), alpha=0.25, linewidth=1)
             print(f"{tag} [{name}]: {len(values)} points, final {values[-1]:.1f}, best {max(values):.1f}")
-        ax.set_title(LABELS.get(tag, tag))
+        ax.set_title(LABELS.get(tag, tag).format(window=args.rew_window))
         ax.set_xlabel("Timesteps")
-        ax.set_ylabel("Reward")
+        ax.set_ylabel(YLABELS.get(tag, "Reward"))
         ax.grid(alpha=0.3)
         if len(series) > 1:
             ax.legend()
